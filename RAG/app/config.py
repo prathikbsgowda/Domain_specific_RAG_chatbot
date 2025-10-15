@@ -1,5 +1,0 @@
-DATA_FOLDER = "data"
-CHAT_HISTORY_FILE = "chat_history.txt"
-EMBED_MODEL = "intfloat/e5-large-v2"   
-LLM_MODEL = "google/flan-t5-base" 
-VECTOR_INDEX = "vectorstore.pkl"
