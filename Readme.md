@@ -47,7 +47,7 @@ rag_qa_system/
 
 ### 1️⃣ Clone repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/prathikbsgowda/Domain_specific_RAG_chatbot.git
 cd rag_qa_system
 ```
 
@@ -128,4 +128,5 @@ docker run -p 8000:8000 -p 8501:8501 rag_qa_app
 - Dashboard for evaluation metrics (accuracy, retrieval precision).  
 
 ---
+
 
