@@ -28,16 +28,16 @@ rag_qa_system/
 │   ├── config.py         # Configuration constants
 │   ├── data_loader.py    # Load PDFs/TXT files
 │   ├── vector_store.py   # FAISS vector database
-│   ├── llm_engine.py     # LLM + query rewriting
+│   ├── llm_engine.py     
 │   ├── rag_pipeline.py   # RAG pipeline & strict rules
-│   └── utils.py          # Utilities (chat logging)
+│   └── utils.py          # Utilities
 │
 ├── frontend/
-│   └── streamlit_app.py  # ChatGPT-style Streamlit interface
+│   └── streamlit_app.py 
 │
 ├── data/                  # Folder containing PDF/TXT documents
-├── chat_history.txt       # Chat logs
-├── requirements.txt       # Python dependencies
+├── chat_history.txt       
+├── requirements.txt       
 └── Dockerfile             # Containerization
 ```
 
@@ -128,6 +128,7 @@ docker run -p 8000:8000 -p 8501:8501 rag_qa_app
 - Dashboard for evaluation metrics (accuracy, retrieval precision).  
 
 ---
+
 
 
 
