@@ -1,0 +1,24 @@
+# ---- Core Framework ----
+fastapi==0.115.0
+uvicorn==0.31.0
+
+# ---- NLP / Embedding ----
+sentence-transformers==3.1.1
+transformers==4.45.2
+torch>=2.1.0
+
+# ---- Document Parsing ----
+pypdf==5.1.0
+
+# ---- RAG / Vector Store ----
+faiss-cpu==1.8.0.post1
+langchain==0.3.4
+
+# ---- Utilities ----
+numpy>=1.26.0
+pydantic>=2.8.0
+PyPDF2
+streamlit
+
+
+langchain-community
