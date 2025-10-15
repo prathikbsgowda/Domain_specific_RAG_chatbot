@@ -6,7 +6,7 @@ It includes a FastAPI backend, a ChatGPT-style Streamlit frontend, query rewriti
 
 ---
 
-## 🌟 Features
+##  Features
 
 - **Strict document-based QA:** Answers come only from uploaded documents; responds with a standard message if info is missing.  
 - **ChatGPT-style interface:** Modern Streamlit UI with chat bubbles, user/bot differentiation, and session history.  
@@ -18,7 +18,7 @@ It includes a FastAPI backend, a ChatGPT-style Streamlit frontend, query rewriti
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 rag_qa_system/
@@ -88,7 +88,7 @@ docker run -p 8000:8000 -p 8501:8501 rag_qa_app
 
 ---
 
-## 💬 Usage
+##  Usage
 
 1. Upload PDF/TXT files in the `data/` folder.  
 2. Open the Streamlit chat UI.  
@@ -106,7 +106,7 @@ docker run -p 8000:8000 -p 8501:8501 rag_qa_app
 
 ---
 
-## 📌 Key Components
+##  Key Components
 
 | Component | Purpose |
 |------------|----------|
@@ -119,7 +119,7 @@ docker run -p 8000:8000 -p 8501:8501 rag_qa_app
 
 ---
 
-## 🛠️ Future Enhancements
+##  Future Enhancements
 
 - File upload through the UI with automatic index rebuild.  
 - Source references for each answer (show which document the answer came from).  
@@ -128,5 +128,6 @@ docker run -p 8000:8000 -p 8501:8501 rag_qa_app
 - Dashboard for evaluation metrics (accuracy, retrieval precision).  
 
 ---
+
 
 
