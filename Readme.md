@@ -129,6 +129,9 @@ docker run -p 8000:8000 -p 8501:8501 rag_qa_app
 
 ---
 
+<img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/692fe658-0ac1-4133-ab37-e9f74ab411a9" />
+
+
 
 
 
