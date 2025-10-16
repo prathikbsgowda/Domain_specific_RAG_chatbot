@@ -9,6 +9,8 @@ COPY . .
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-mpnet-base-v2')"
+
 # Expose ports (FastAPI:8000, Streamlit:8501)
 EXPOSE 8000
 EXPOSE 8501
