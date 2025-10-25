@@ -5,7 +5,7 @@ from app.vector_store import create_or_load_vectorstore
 from app.llm_engine import load_llm
 from app.rag_pipeline import answer_query
 
-app = FastAPI(title="Domain-Specific RAG QA System (Strict Mode)")
+app = FastAPI(title="Domain-Specific RAG QA System")
 
 docs = load_documents()
 vectorstore = create_or_load_vectorstore(docs)
@@ -27,3 +27,4 @@ def ask_question(req: QueryRequest):
         return {"question": req.question, "answer": answer}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
